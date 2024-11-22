@@ -72,7 +72,6 @@ A SwiftUI-based card game app where players compete against the CPU by drawing r
 ---
 
 ## Screenshots
-<img width="330" alt="Screenshot 2024-11-22 at 5 29 17 PM" src="https://github.com/user-attachments/assets/7349b3cb-81d7-48c1-a1b0-1761666885cf">
 
 ![final](https://github.com/user-attachments/assets/af28f37b-a67f-4850-83df-cf91e962fdbb)
 
