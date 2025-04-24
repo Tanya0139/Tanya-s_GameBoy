@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Birthday Button</title>
+    <style>
+        #birthdayMessage {
+            display: none;
+            text-align: center;
+            margin-top: 20px;
+        }
+        #birthdayImage {
+            display: none;
+            margin-top: 20px;
+        }
+        .birthdayButton {
+            background-color: rgb(249, 127, 201);
+            color: white;
+            height: 36px;
+            width: 110px;
+            border: none;
+            border-radius: 2px;
+            cursor: pointer;
+            margin-right: 8px;
+            transition: opacity 0.15s;
+            position: absolute;
+        }
+        .birthdayButton:hover {
+            opacity: 0.8;
+        }
+        .birthdayButton:active {
+            opacity: 0.5;
+        }
+        .birthdayMessage {
+            color: rgb(254, 131, 182);
+            font-family: 'Playfair Display', serif;
+        }
+    </style>
+</head>
+<body>
+    <button class="birthdayButton" id="birthdayButton">Press</button>
+    <div id="birthdayMessage">
+        <h1>Happy Birthday Garima!</h1>
+        <img id="birthdayImage" src="e.jpg" alt="Happy Birthday Image">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
